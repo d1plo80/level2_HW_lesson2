@@ -26,11 +26,11 @@ public class Sum {
     private void checkSize(String[][] values) {
 
         if (values.length != 4) {
-            throw new MyArraySizeException("Массив имеет неверный размер");
+            throw new MyArraySizeException("Массив имеет неверный размер...");
         }
         for (String[] value : values) {
             if (value.length != 4) {
-                throw new MyArraySizeException("Массив имеет неверный размер");
+                throw new MyArraySizeException("Массив имеет неверный размер...");
             }
         }
     }
